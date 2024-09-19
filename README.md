@@ -1,5 +1,3 @@
-<div align="center">
-
 # @stlib/testing-reporter
 
 HTML reporter for [@stlib/testing](https://github.com/stbestichhh/stlib-testing)
