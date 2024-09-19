@@ -18,7 +18,6 @@
   "files": [
     "dist",
     "src/index.d.ts",
-    "tsconfig.json",
     "README.md",
     "LICENSE"
   ],
