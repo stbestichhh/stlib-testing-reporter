@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "HTML test reporter for @stlib/testing",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "src/index.d.ts",
   "repository": "https://github.com/stbestichhh/stlib-testing-reporter",
   "author": "Kiril Yakymchuk <stbestich@gmail.com>",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "files": [
     "dist",
-    "index.d.ts",
+    "src/index.d.ts",
     "tsconfig.json",
     "README.md",
     "LICENSE"
