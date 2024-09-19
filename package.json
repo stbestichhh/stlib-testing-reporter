@@ -1,0 +1,46 @@
+{
+  "name": "@stlib/testing-reporter",
+  "version": "0.0.1",
+  "description": "HTML test reporter for @stlib/testing",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/stbestichhh/stlib-testing-reporter",
+  "author": "Kiril Yakymchuk <stbestich@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "npx tsc",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "prepare": "husky"
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "tsconfig.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "Testing",
+    "Reporter",
+    "HTML-reporter"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/types": "^19.5.0",
+    "@types/node": "^20.12.10",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.57.0",
+    "husky": "9",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+  }
+}
