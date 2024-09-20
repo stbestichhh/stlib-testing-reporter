@@ -62,12 +62,11 @@ export class HtmlReporter {
 
   private static renderTestCase(testCase: ITestReport): string {
     const statusClass = testCase.status === 'PASSED' ? 'passed' : 'failed';
-    const error = testCase.error ? `<p>Error: ${testCase.error}</p>` : '';
+    const error = testCase.error ? `&emsp; ${testCase.error}` : '';
 
     return `
       <div class="test-case">
-        <p class="${statusClass}">${testCase.status}: ${testCase.caseName}</p>
-        ${error}
+        <p class="${statusClass}">${testCase.status}: ${testCase.caseName}<br />${error}</p>
         <p class="duration">Duration: ${testCase.duration.toFixed(2)} ms</p>
       </div>
     `;
