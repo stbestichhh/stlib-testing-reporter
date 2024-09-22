@@ -1,4 +1,4 @@
-import { ITestReport } from './ITestReport';
+import { ITestReport } from '../ITestReport';
 
 export class ReportsRegistry {
   private static testReports: ITestReport[] = [];
